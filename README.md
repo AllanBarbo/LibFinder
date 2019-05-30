@@ -1,2 +1,2 @@
 # LibFinder
-Lib finder - Busca das bibliotecas do cdnjs
+Busca das bibliotecas do cdnjs
