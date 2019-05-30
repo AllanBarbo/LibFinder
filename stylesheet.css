@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body{
+  background: #FFFFFF;
+  margin:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+p.name{
+  font-family:  Montserrat;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 39px;
+  color: #4A4A4A;
+
+}
+p.description{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color:#9B9B9B;
+}
+p.info{
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4A4A4A;
+}
+
+hr{
+  color: #EEEEEE;
+  background-color: #EEEEEE;
+}
+
+.header{
+  position: relative;
+  height: 300px;
+  background: #4A90E2;
+}
+
+.header img{
+  max-height:60%;
+  max-width:60%;
+  padding-top: 3%;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.container{
+  width: 40%;
+
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*vesão mobile*/
+@media only screen and (max-width: 768px) {
+  div.container{
+    width: 85%;
+  }
+}
+
+input[type=search]{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  top:-25px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+
+}
+
+
+input::placeholder{
+  position: absolute;
+  height: 27px;
+  left: 9.33%;
+  right: 36%;
+  top: calc(50% - 27px/2 - 55.5px);
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #9B9B9B;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+ul> li:nth-of-type(odd) {
+    background-color: #EEEEEE ;
+}
+
+ul> li {
+
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+
+.footer{
+  position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+  background: #F0F0F0;
+}
+
+.footer .text{
+  text-align: center;
+  height: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #9B9B9B;
+}
